@@ -63,7 +63,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				wrlds: {
+				        orbis: {
 					teal: '#9F9EA1',
 					dark: '#3F3F3F',
 					light: '#F6F6F7',
@@ -130,5 +130,8 @@ export default {
 			}
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [
+		// eslint-disable-next-line @typescript-eslint/no-require-imports
+		require("tailwindcss-animate")
+	],
 } satisfies Config;

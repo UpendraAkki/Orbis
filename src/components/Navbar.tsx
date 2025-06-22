@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
-              <img src="/lovable-uploads/7d120ee6-3614-4b75-9c35-716d54490d67.png" alt="WRLDS Technologies Logo" className={cn("h-8 w-auto", isScrolled ? "" : "brightness-0 invert")} />
+              <img src="/orbis-logo.svg" alt="Orbis Logo" className={cn("h-8 w-auto", isScrolled ? "" : "brightness-0 invert")} />
             </Link>
           </div>
           
@@ -148,14 +148,14 @@ const Navbar = () => {
                 <NavigationMenuItem>
                   <Link to="/careers">
                     <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), isScrolled ? "text-gray-700 hover:text-gray-900" : "text-gray-100 hover:text-white bg-transparent hover:bg-gray-800")}>
-                      Careers
+                      Hire Me
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
                 
                 <NavigationMenuItem>
                   <button onClick={() => scrollToSection('contact')} className={cn("px-4 py-2 rounded-md transition-colors", isScrolled ? "bg-gray-200 text-gray-700 hover:bg-gray-300" : "bg-gray-700 text-white hover:bg-gray-600")}>
-                    Contact Us
+                    Contact Me
                   </button>
                 </NavigationMenuItem>
               </NavigationMenuList>
@@ -259,8 +259,8 @@ const Navbar = () => {
               }}>
                 Development Process
               </Link>
-              <button onClick={() => scrollToSection('why-wrlds')} className={cn("block w-full text-left px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")}>
-                Why WRLDS
+              <button onClick={() => scrollToSection('why-orbis')} className={cn("block w-full text-left px-3 py-2 rounded-md", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")}>
+                Why Orbis
               </button>
             </div>
           </div>
@@ -276,11 +276,11 @@ const Navbar = () => {
             setIsMenuOpen(false);
             window.scrollTo(0, 0);
           }}>
-            Careers
+            Hire Me
           </Link>
           
           <button onClick={() => scrollToSection('contact')} className={cn("block w-full text-left px-3 py-2 rounded-md", isScrolled ? "text-gray-700 bg-gray-200 hover:bg-gray-300" : "text-white bg-gray-700 hover:bg-gray-600")}>
-            Contact Us
+            Contact Me
           </button>
         </div>
       </div>

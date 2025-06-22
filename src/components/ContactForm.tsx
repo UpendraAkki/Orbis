@@ -8,7 +8,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 // Updated schema with honeypot field validation
 const formSchema = z.object({
@@ -82,7 +82,7 @@ const ContactForm = () => {
         from_name: emailData.name,
         from_email: emailData.email,
         message: emailData.message,
-        to_name: 'WRLDS Team', // Adding recipient name parameter
+        to_name: 'Upendra Gariminti', // Adding recipient name parameter
         reply_to: emailData.email // Keeping reply_to for compatibility
       };
       
@@ -119,7 +119,7 @@ const ContactForm = () => {
       
       // More detailed error logging
       if (error && typeof error === 'object' && 'text' in error) {
-        console.error('Error details:', (error as any).text);
+        console.error('Error details:', (error as { text: string }).text);
       }
       
       toast({
@@ -139,10 +139,10 @@ const ContactForm = () => {
             Get In Touch
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-black">
-            Contact Us Today
+            Contact Me Today
           </h2>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">
-            Have questions about our AI-powered sensor solutions? Reach out to our team and let's discuss how we can help bring your ideas to life.
+            Have questions about web development services or looking to hire a passionate developer? Reach out and let's discuss how I can help bring your ideas to life.
           </p>
         </div>
         
@@ -225,7 +225,7 @@ const ContactForm = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
               <p className="text-gray-600 mb-2">For general inquiries:</p>
-              <a href="mailto:info@wrlds.com" className="text-blue-500 hover:underline">hello@wrlds.com</a>
+              <a href="mailto:upendra@leadkamp.com" className="text-blue-500 hover:underline">upendra@leadkamp.com</a>
               <p className="text-gray-600 mt-2 mb-2">
             </p>
             </div>

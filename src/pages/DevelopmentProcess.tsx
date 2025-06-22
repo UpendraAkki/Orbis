@@ -1,6 +1,6 @@
 import { ArrowLeft, CheckCircle, Clock, FileSearch, Settings, Cpu, Code, Truck, BarChart, Check } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
 import { cn } from '@/lib/utils';
 import PageLayout from '@/components/PageLayout';
 const DevelopmentProcess = () => {
@@ -14,7 +14,7 @@ const DevelopmentProcess = () => {
   }, []);
 
   // Process component logic
-  const processes = [{
+  const processes = useMemo(() => [{
     id: 1,
     title: "Textile Sensor Design",
     description: "We begin by designing custom textile sensors specifically for your industry and use case, selecting appropriate conductive materials and sensor types.",
@@ -39,10 +39,10 @@ const DevelopmentProcess = () => {
     title: "Deployment & Support",
     description: "We provide comprehensive training, implementation assistance, and ongoing support to ensure successful adoption and continuous improvement.",
     steps: ["User training and onboarding", "Data interpretation guidance", "Performance monitoring", "Continuous improvement iterations"]
-  }];
+  }], []);
   useEffect(() => {
     processSectionsRef.current = processes.map((_, i) => processSectionsRef.current[i] || null);
-  }, []);
+  }, [processes]);
   useEffect(() => {
     const observer = new IntersectionObserver(entries => {
       if (entries[0].isIntersecting) {

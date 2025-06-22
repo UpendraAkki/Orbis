@@ -23,18 +23,18 @@ const PrivacyPolicy = () => {
               
               <h2 className="text-2xl font-semibold mt-8 mb-4">1. Introduction</h2>
               <p className="text-gray-600 mb-4">
-                At WRLDS Technologies ("we," "our," or "us"), we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+                At this website ("I," "me," or "my"), I respect your privacy and am committed to protecting your personal information. This Privacy Policy explains how I collect, use, disclose, and safeguard your information when you visit my website or use my services.
               </p>
               
               <h2 className="text-2xl font-semibold mt-8 mb-4">2. Information We Collect</h2>
               <p className="text-gray-600 mb-4">
-                We may collect personal information that you voluntarily provide to us when you:
+                I may collect personal information that you voluntarily provide to me when you:
               </p>
               <ul className="list-disc pl-6 mb-4 text-gray-600">
-                <li>Contact us through our website</li>
-                <li>Subscribe to our newsletter</li>
-                <li>Register for our services</li>
-                <li>Participate in our surveys or promotions</li>
+                <li>Contact me through my website</li>
+                <li>Subscribe to my newsletter</li>
+                <li>Register for my services</li>
+                <li>Participate in my surveys or promotions</li>
               </ul>
               <p className="text-gray-600 mb-4">
                 This information may include your name, email address, company name, phone number, and any other information you choose to provide.
@@ -84,8 +84,8 @@ const PrivacyPolicy = () => {
                 We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. We will let you know via email and/or a prominent notice on our website prior to the change becoming effective.
               </p>
               
-              <h2 className="text-2xl font-semibold mt-8 mb-4">10. Contact Us</h2>
-              <p className="text-gray-600 mb-4">If you have any questions about this Privacy Policy, please contact us at hello@wrlds.com</p>
+              <h2 className="text-2xl font-semibold mt-8 mb-4">10. Contact Me</h2>
+              <p className="text-gray-600 mb-4">If you have any questions about this Privacy Policy, please contact me at upendra@leadkamp.com</p>
               
             </div>
           </div>

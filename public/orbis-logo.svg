@@ -1,0 +1,27 @@
+<svg width="120" height="32" viewBox="0 0 120 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="orbisGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Orbis Icon - Circular design representing orbits -->
+  <g transform="translate(2, 2)">
+    <!-- Outer orbit ring -->
+    <circle cx="14" cy="14" r="12" fill="none" stroke="url(#orbisGradient)" stroke-width="2" opacity="0.6"/>
+    <!-- Middle orbit ring -->
+    <circle cx="14" cy="14" r="8" fill="none" stroke="url(#orbisGradient)" stroke-width="1.5" opacity="0.8"/>
+    <!-- Center core -->
+    <circle cx="14" cy="14" r="3" fill="url(#orbisGradient)"/>
+    <!-- Orbital dots -->
+    <circle cx="26" cy="14" r="1.5" fill="url(#orbisGradient)"/>
+    <circle cx="14" cy="2" r="1" fill="url(#orbisGradient)" opacity="0.7"/>
+    <circle cx="2" cy="14" r="1" fill="url(#orbisGradient)" opacity="0.7"/>
+  </g>
+  
+  <!-- Orbis Text -->
+  <text x="36" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="currentColor">
+    ORBIS
+  </text>
+</svg> 
