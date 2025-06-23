@@ -1,0 +1,12 @@
+name = "orbis"
+compatibility_date = "2025-06-23"
+
+# For Cloudflare Pages deployments
+# The assets directory contains the built static files
+[assets]
+directory = "./dist"
+
+# Optional: Configure build settings
+[build]
+command = "npm run build"
+directory = "." 
