@@ -142,4 +142,3 @@ If you are extending it:
 - Keep components **modular and reusable**.
 - Maintain **consistent styling** with the existing Tailwind and shadcn‑ui patterns.
 - Test on both **desktop and mobile** to preserve the smooth scrolling and animated user experience.
-
