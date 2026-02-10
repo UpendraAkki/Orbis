@@ -16,6 +16,40 @@ This repository contains the **frontend single‑page application** (SPA) built 
 
 ---
 
+### Screenshots
+
+Preview of the Orbis site across key pages and sections.
+
+<table>
+<tr>
+<td width="33%"><img src="public/Screenshots/Screenshot%202026-02-10%20093702.png" alt="Orbis 1" width="100%"/></td>
+<td width="33%"><img src="public/Screenshots/Screenshot%202026-02-10%20093806.png" alt="Orbis 2" width="100%"/></td>
+<td width="33%"><img src="public/Screenshots/Screenshot%202026-02-10%20093826.png" alt="Orbis 3" width="100%"/></td>
+</tr>
+<tr>
+<td><img src="public/Screenshots/Screenshot%202026-02-10%20093848.png" alt="Orbis 4" width="100%"/></td>
+<td><img src="public/Screenshots/Screenshot%202026-02-10%20093901.png" alt="Orbis 5" width="100%"/></td>
+<td><img src="public/Screenshots/Screenshot%202026-02-10%20093910.png" alt="Orbis 6" width="100%"/></td>
+</tr>
+<tr>
+<td><img src="public/Screenshots/Screenshot%202026-02-10%20093929.png" alt="Orbis 7" width="100%"/></td>
+<td><img src="public/Screenshots/Screenshot%202026-02-10%20093945.png" alt="Orbis 8" width="100%"/></td>
+<td><img src="public/Screenshots/Screenshot%202026-02-10%20093957.png" alt="Orbis 9" width="100%"/></td>
+</tr>
+<tr>
+<td><img src="public/Screenshots/Screenshot%202026-02-10%20094010.png" alt="Orbis 10" width="100%"/></td>
+<td><img src="public/Screenshots/Screenshot%202026-02-10%20094048.png" alt="Orbis 11" width="100%"/></td>
+<td><img src="public/Screenshots/Screenshot%202026-02-10%20094101.png" alt="Orbis 12" width="100%"/></td>
+</tr>
+<tr>
+<td><img src="public/Screenshots/Screenshot%202026-02-10%20094119.png" alt="Orbis 13" width="100%"/></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+---
+
 ### Key Features
 
 - **Landing experience**
